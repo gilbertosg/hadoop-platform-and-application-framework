@@ -32,6 +32,6 @@ In Week 4 of the course, we discuss the [Map/Reduce](https://github.com/gilberto
 
 Week 5 covers the [Spark](https://github.com/gilbertosg/hadoop-platform-and-application-framework/tree/master/spark) framework with two join exercises using spark.
   - [Simple Join](https://github.com/gilbertosg/hadoop-platform-and-application-framework/tree/master/spark/simple-join-assignment)
-  - [Advanced Join](https://github.com/juliaawu/hadoop-platform-and-application-framework/tree/master/spark/advanced-join-assignment)
+  - [Advanced Join](https://github.com/gilbertosg/hadoop-platform-and-application-framework/tree/master/spark/advanced-join-assignment)
 
 Course: [https://www.coursera.org/learn/hadoop/](https://www.coursera.org/learn/hadoop/)
