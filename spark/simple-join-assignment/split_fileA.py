@@ -5,3 +5,5 @@ def split_fileA(line):
         # turn the count to an integer  
         count = int(key_value[1])
         return (word, count)
+test_line = "able,991"
+split_fileA(test_line)
