@@ -6,11 +6,11 @@ Using the data from the Join 2 exercise, the objective is to find out the total 
    - [sum_channel_views.py](https://github.com/gilbertosg/hadoop-platform-and-application-framework/blob/master/spark/advanced-join-assignment/sum_channel_views.py) sums all of the views for each channel
 
 Parse show files:  
-show_views_file = sc.textFile("input3/join2_gennum?.txt")  
+show_views_file = sc.textFile("/user/cloudera/input_join2/join2_gennum?.txt")  
 show_views = show_views_file.map(split_show_views)
 
 Parse channel files:  
-show_channel_file = sc.textFile("input3/join2_genchan?.txt")  
+show_channel_file = sc.textFile("/user/cloudera/input_join2/join2_genchan?.txt")  
 show_channel = show_channel_file.map(split_show_channel)
 
 Join the 2 datasets:  
